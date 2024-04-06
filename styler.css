@@ -1,0 +1,37 @@
+*{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    gap: 800px;
+    background-color: rgb(105, 102, 102);
+}
+.si{
+    margin: 30px;
+    gap: 50px;
+}
+body{
+    background-color: grey;
+}
+.posicion{
+
+    justify-content: center;
+    border-collapse: collapse;
+    margin: 50px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.posicion thead tr{
+    background-color: rgb(105, 102, 102);
+    color: antiquewhite;
+    text-align: center;
+}
+.posicion th,
+.posicion td{
+    padding: 12px;
+}
+.posicion tbody tr{
+    border-bottom: 2px solid white;
+}
